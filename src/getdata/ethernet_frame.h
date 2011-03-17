@@ -11,4 +11,7 @@ typedef struct
 		unsigned char src[6];	/*source mac*/
 		unsigned char type;		/*see TYPE_FLAG*/
 		void *data;				/*point to data struct(arp/ip)*/
-} Eth_frame;
+} eth_frame;
+
+
+#endif

@@ -17,5 +17,6 @@ typedef struct
 		unsigned char 	src[4];
 		unsigned char 	dest[4];
 		void			*data;
-} Ip_packet;
+} ip_packet;
 
+#endif
